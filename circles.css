@@ -1,0 +1,45 @@
+.circles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.teal-1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.sub-text1 {
+    text-align: center;
+    position: fixed;
+    top: -225px;
+    left: -425px;
+    font-size: 115px;
+    margin: 0;
+    padding: 0px;
+    color: white;
+}
+
+.sub-text2 {
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: -40px;
+    font-size: 80px;
+    margin: 0;
+    padding: 0px;
+    color: white;
+}
+
+.sub-text3 {
+    text-align: center;
+    position: relative;
+    top: -580px;
+    left: 340px;
+    font-size: 85px;
+    margin: 0;
+    padding: 0px;
+    color: white;
+}

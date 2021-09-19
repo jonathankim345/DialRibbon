@@ -5,8 +5,36 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+span.a {
+    display: inline-block;
+    background-color: #F99192;
+    width: 1400px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-top: 50px;
+    margin-left: -700px;
+    border-radius: 4px;
+}
+
+.chatbot {
+    position: relative;
+    top: 200px;
+    left: 600px;
+    background-color: #53CCD3;
+    height: 25px;
+    width: 250px;
+}
+
+.answer_list {
+    position: relative;
+    top: 220px;
+    left: 260px;
+}
+
 .navbar {
-    background: #131313;
+    background: #F99192;
     height: 80px;
     display: flex; 
     justify-content: center; 
@@ -29,8 +57,8 @@
 }
 
 #navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #53CCD3;
+    background-image: linear-gradient(to top, #53CCD3 0%, #B2EEE6 100%);
     background-size: 100%;
     -webkit-background-clip: text; 
     -moz-background-clip: text; 
@@ -85,7 +113,7 @@
     opacity: 1;
     visibility: visible;
     height: 55%;
-    transition: height 1s;
+    transition: height 0.8s;
     transform: translateY(0);
 }
 
