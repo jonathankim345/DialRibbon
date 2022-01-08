@@ -1,2 +1,2 @@
 # DialRibbon
- Our Hack the North submission
+ Our Hack the North project
